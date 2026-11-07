@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Ramord Community</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #222222;
+            --muted-color: #666666;
+            --border-color: #e0e0e0;
+            --accent-color: #1a73e8;
+            --btn-bg: #f1f3f4;
+            --btn-active-bg: #1a73e8;
+            --btn-active-text: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 30px 20px 60px 20px;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        .lang-switch {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .lang-btn {
+            background-color: var(--btn-bg);
+            color: var(--text-color);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn:hover {
+            background-color: #e8eaed;
+        }
+
+        .lang-btn.active {
+            background-color: var(--btn-active-bg);
+            color: var(--btn-active-text);
+            border-color: var(--btn-active-bg);
+        }
+
+        .lang-content {
+            display: none;
+        }
+
+        .lang-content.active {
+            display: block;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #111111;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            color: #111111;
+        }
+
+        p, li {
+            font-size: 15px;
+            color: #333333;
+        }
+
+        ul {
+            padding-left: 24px;
+            margin-top: 8px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .date {
+            color: var(--muted-color);
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-note {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 13px;
+            color: var(--muted-color);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="lang-switch">
+        <button type="button" class="lang-btn" onclick="setLanguage('tr')">Türkçe</button>
+        <button type="button" class="lang-btn" onclick="setLanguage('en')">English</button>
+        <button type="button" class="lang-btn" onclick="setLanguage('de')">Deutsch</button>
+        <button type="button" class="lang-btn" onclick="setLanguage('es')">Español</button>
+        <button type="button" class="lang-btn" onclick="setLanguage('fr')">Français</button>
+        <button type="button" class="lang-btn" onclick="setLanguage('it')">Italiano</button>
+    </div>
+
+    <!-- ════════════════════ TÜRKÇE ════════════════════ -->
+    <div id="content-tr" class="lang-content">
+        <h1>Hizmet Şartları ve Kullanım Koşulları</h1>
+        <div class="date">Son güncelleme: Kasım 2026</div>
+
+        <p>Ramord Community tarafından sunulan mobil uygulamaları (RamordCAD vb.) indirerek, kurarak veya kullanarak bu Hizmet Şartları'nı kabul etmiş sayılırsınız. Bu şartları kabul etmiyorsanız lütfen uygulamalarımızı kullanmayınız.</p>
+
+        <h2>1. Hizmetin Tanımı ve Kapsamı</h2>
+        <p>Ramord Community uygulamaları; 2D ve 3D CAD dosyalarını görüntüleme, inceleme, ölçüm alma, dönüştürme ve görselleştirme araçları sunan mobil yazılımlardır. Uygulama, dosyaları yerel cihazınız üzerinde bağımsız ve çevrimdışı işleyecek şekilde tasarlanmıştır.</p>
+
+        <h2>2. Kullanıcı Dosyaları ve Fikri Mülkiyet</h2>
+        <p>Uygulamalarımıza yüklediğiniz veya görüntülediğiniz tüm CAD modelleri, teknik çizimler, projeler ve kişisel dosyalar <strong>tamamen sizin mülkiyetinizdedir</strong>. Ramord Community:</p>
+        <ul>
+            <li>Tasarım dosyalarınızı veya çizimlerinizi hiçbir sunucuya yüklemez, kopyalamaz veya saklamaz.</li>
+            <li>Tüm analiz ve 3D oluşturma işlemleri doğrudan cihazınızın işlemci ve grafik donanımı üzerinde yerel olarak gerçekleşir.</li>
+            <li>Projeleriniz üzerinde hiçbir fikri mülkiyet veya telif hakkı iddia etmez.</li>
+        </ul>
+
+        <h2>3. Uygulama İçi Satın Alımlar ve Abonelikler</h2>
+        <p>Uygulama; ücretsiz temel özelliklerin yanı sıra gelişmiş format desteği, reklamsız deneyim ve profesyonel araçlar sunan Pro abonelik veya tek seferlik lisans seçenekleri içerebilir:</p>
+        <ul>
+            <li>Tüm ödeme ve abonelik işlemleri güvenli bir şekilde <strong>Google Play Faturalandırma Sistemi (Google Play In-App Billing)</strong> üzerinden gerçekleştirilir.</li>
+            <li>Abonelikler, fatura döneminin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir.</li>
+            <li>Aboneliğinizi dilediğiniz zaman Google Play Store hesabınızdaki "Ödemeler ve Abonelikler" menüsünden iptal edebilirsiniz.</li>
+            <li>İade talepleri, Google Play'in standart tüketici iade politikalarına tabidir.</li>
+        </ul>
+
+        <h2>4. Reklamlar ve Üçüncü Taraf Hizmetleri</h2>
+        <p>Uygulamanın ücretsiz sürümü, Google AdMob aracılığıyla reklamlar (ödüllü reklamlar, afişler vb.) gösterebilir. Bu reklam sağlayıcıları, ilgili gizlilik politikalarına ve Google Play kurallarına tabi olarak anonim kullanım istatistikleri işleyebilir.</p>
+
+        <h2>5. Sorumluluk Reddi (Garantisizlik)</h2>
+        <p>Uygulama "olduğu gibi" (as-is) ve "mevcut olduğu şekilde" sunulmaktadır. Ramord Community, uygulamanın kesintisiz, hatasız çalışacağını veya belirli bir üretim toleransına %100 uygun olacağını garanti etmez. Kritik mühendislik, imalat veya inşaat kararlarında ölçüm ve model doğruluğunu yetkili orijinal yazılımlarla teyit etmek tamamen kullanıcının sorumluluğundadır.</p>
+
+        <h2>6. Değişiklikler ve Fesih</h2>
+        <p>Ramord Community, bu Hizmet Şartları'nı herhangi bir zamanda güncelleme hakkını saklı tutar. Önemli değişiklikler bu sayfa üzerinden yayınlanacaktır. Güncellenen şartların yayınlanmasından sonra uygulamayı kullanmaya devam etmeniz, yeni şartları kabul ettiğiniz anlamına gelir.</p>
+
+        <h2>7. İletişim</h2>
+        <p>Hizmet Şartları veya uygulamalarımız hakkında sorularınız, önerileriniz veya destek talepleriniz için bizimle iletişime geçebilirsiniz:</p>
+        <p><strong>E-posta:</strong> <a href="mailto:ramordhelp@gmail.com">ramordhelp@gmail.com</a><br>
+        <strong>Web:</strong> <a href="https://ramordcommunity.github.io" target="_blank">https://ramordcommunity.github.io</a></p>
+
+        <div class="footer-note">© 2026 Ramord Community. Tüm hakları saklıdır.</div>
+    </div>
+
+    <!-- ════════════════════ ENGLISH ════════════════════ -->
+    <div id="content-en" class="lang-content">
+        <h1>Terms of Service</h1>
+        <div class="date">Last updated: November 2026</div>
+
+        <p>By downloading, installing, or using mobile applications developed and distributed by Ramord Community (such as RamordCAD), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our applications.</p>
+
+        <h2>1. Description of Service</h2>
+        <p>Ramord Community applications provide mobile utilities for viewing, inspecting, measuring, converting, and rendering 2D and 3D CAD files. The software is designed to process your files locally and offline on your mobile device.</p>
+
+        <h2>2. User Files and Intellectual Property</h2>
+        <p>All CAD models, blueprints, architectural designs, and proprietary files you open or view remain <strong>exclusively your property</strong>. Ramord Community:</p>
+        <ul>
+            <li>Does not upload, transmit, duplicate, or store your design files on any external servers.</li>
+            <li>Processes all parsing, 3D geometry tessellation, and rendering directly on your device hardware.</li>
+            <li>Claims no copyright, ownership, or intellectual property rights over any models or projects opened with our software.</li>
+        </ul>
+
+        <h2>3. In-App Purchases and Subscriptions</h2>
+        <p>In addition to standard free features, the application may offer optional Pro subscriptions or lifetime licenses unlocking advanced CAD format importers, ad-free operation, and premium tools:</p>
+        <ul>
+            <li>All transactions are securely handled through the official <strong>Google Play In-App Billing System</strong>.</li>
+            <li>Subscriptions automatically renew unless auto-renew is cancelled at least 24 hours before the end of the current billing cycle.</li>
+            <li>You can manage or cancel your active subscription at any time via your Google Play account under "Payments & subscriptions".</li>
+            <li>Refund requests are subject to Google Play standard consumer refund guidelines.</li>
+        </ul>
+
+        <h2>4. Advertisements and Third-Party Services</h2>
+        <p>Free tiers of the application may serve non-intrusive advertisements (such as rewarded video ads) via Google AdMob to support ongoing development. Ad providers may process anonymous diagnostic data in strict accordance with Google Play Developer policies.</p>
+
+        <h2>5. Disclaimer of Warranties and Limitation of Liability</h2>
+        <p>The application is provided on an "as is" and "as available" basis without warranties of any kind. While we strive for extreme mathematical precision in our CAD parsers, Ramord Community does not guarantee error-free operation or suitability for critical manufacturing tolerances. Users bear sole responsibility for verifying measurements and structural integrity before executing industrial production or fabrication.</p>
+
+        <h2>6. Changes to Terms</h2>
+        <p>Ramord Community reserves the right to modify these Terms of Service at any time. Changes will be posted directly to this URL. Continued use of the application following published revisions constitutes acceptance of the amended terms.</p>
+
+        <h2>7. Contact Us</h2>
+        <p>For legal inquiries, feedback, bug reports, or customer support regarding these Terms, please reach out to:</p>
+        <p><strong>Email:</strong> <a href="mailto:ramordhelp@gmail.com">ramordhelp@gmail.com</a><br>
+        <strong>Website:</strong> <a href="https://ramordcommunity.github.io" target="_blank">https://ramordcommunity.github.io</a></p>
+
+        <div class="footer-note">© 2026 Ramord Community. All rights reserved.</div>
+    </div>
+
+    <!-- ════════════════════ DEUTSCH ════════════════════ -->
+    <div id="content-de" class="lang-content">
+        <h1>Nutzungsbedingungen</h1>
+        <div class="date">Zuletzt aktualisiert: November 2026</div>
+
+        <p>Durch das Herunterladen, Installieren oder Verwenden der mobilen Anwendungen von Ramord Community (wie RamordCAD) erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie unsere Anwendungen bitte nicht.</p>
+
+        <h2>1. Beschreibung des Dienstes</h2>
+        <p>Die Anwendungen von Ramord Community sind mobile CAD-Werkzeuge zum Betrachten, Überprüfen, Vermessen und Visualisieren von 2D- und 3D-CAD-Modellen. Die Software verarbeitet alle Dateien lokal und offline auf Ihrem Endgerät.</p>
+
+        <h2>2. Benutzerdateien und geistiges Eigentum</h2>
+        <p>Alle CAD-Modelle, Zeichnungen und Entwürfe, die Sie in der App öffnen, verbleiben <strong>ausschließlich in Ihrem Eigentum</strong>. Ramord Community:</p>
+        <ul>
+            <li>Lädt Ihre Konstruktionsdateien auf keine externen Server hoch und speichert sie dort nicht.</li>
+            <li>Führt alle 3D-Berechnungen und Darstellungen direkt auf der Hardware Ihres Mobilgeräts aus.</li>
+            <li>Erhebt keinerlei Urheber- oder Eigentumsansprüche auf Ihre Zeichnungen oder Projekte.</li>
+        </ul>
+
+        <h2>3. In-App-Käufe und Abonnements</h2>
+        <p>Neben kostenlosen Basisfunktionen bietet die App optionale Pro-Abonnements oder Einmalkäufe zur Freischaltung zusätzlicher Formate und werbefreier Nutzung an:</p>
+        <ul>
+            <li>Alle Zahlungen werden sicher über das offizielle <strong>Google Play Abrechnungssystem (In-App Billing)</strong> abgewickelt.</li>
+            <li>Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ablauf des aktuellen Zeitraums gekündigt werden.</li>
+            <li>Abonnements können jederzeit im Google Play Store unter „Zahlungen und Abos“ verwaltet oder gekündigt werden.</li>
+            <li>Rückerstattungsrichtlinien unterliegen den offiziellen Richtlinien des Google Play Store.</li>
+        </ul>
+
+        <h2>4. Werbung</h2>
+        <p>In der kostenlosen Version können Werbeanzeigen (z. B. belohnte Videos) über Google AdMob eingeblendet werden. Es gelten die offiziellen Richtlinien für Google Play-Entwickler.</p>
+
+        <h2>5. Haftungsausschluss</h2>
+        <p>Die Anwendung wird „wie besehen“ (as is) zur Verfügung gestellt. Ramord Community übernimmt keine Garantie für die absolute Fehlerfreiheit bei hochpräzisen Fertigungstoleranzen. Es liegt in der Verantwortung des Anwenders, kritische Maße vor der industriellen Fertigung zu prüfen.</p>
+
+        <h2>6. Kontakt</h2>
+        <p>Bei Fragen zu diesen Bedingungen erreichen Sie uns unter:</p>
+        <p><strong>E-Mail:</strong> <a href="mailto:ramordhelp@gmail.com">ramordhelp@gmail.com</a><br>
+        <strong>Webseite:</strong> <a href="https://ramordcommunity.github.io" target="_blank">https://ramordcommunity.github.io</a></p>
+
+        <div class="footer-note">© 2026 Ramord Community. Alle Rechte vorbehalten.</div>
+    </div>
+
+    <!-- ════════════════════ ESPAÑOL ════════════════════ -->
+    <div id="content-es" class="lang-content">
+        <h1>Condiciones del Servicio</h1>
+        <div class="date">Última actualización: Noviembre de 2026</div>
+
+        <p>Al descargar, instalar o utilizar las aplicaciones móviles desarrolladas por Ramord Community (como RamordCAD), aceptas cumplir con estas Condiciones del Servicio. Si no estás de acuerdo con estos términos, no utilices nuestras aplicaciones.</p>
+
+        <h2>1. Descripción del Servicio</h2>
+        <p>Las aplicaciones de Ramord Community son herramientas de visualización y análisis de archivos CAD en 2D y 3D diseñadas para funcionar de manera local y sin conexión en tu dispositivo móvil.</p>
+
+        <h2>2. Archivos del Usuario y Propiedad Intelectual</h2>
+        <p>Todos los archivos y modelos CAD que abres o inspeccionas en la aplicación son <strong>exclusivamente de tu propiedad</strong>. Ramord Community:</p>
+        <ul>
+            <li>No sube, transfiere ni almacena tus diseños o archivos en ningún servidor externo.</li>
+            <li>Procesa toda la geometría y renderizado 3D de forma local en el hardware de tu dispositivo.</li>
+            <li>No reclama derechos de propiedad intelectual sobre tus proyectos.</li>
+        </ul>
+
+        <h2>3. Compras dentro de la aplicación y Suscripciones</h2>
+        <p>La aplicación ofrece funciones gratuitas y suscripciones opcionales Pro para soporte de formatos avanzados y eliminación de publicidad:</p>
+        <ul>
+            <li>Todas las compras se gestionan de forma segura a través de <strong>Google Play In-App Billing</strong>.</li>
+            <li>Las suscripciones se renuevan automáticamente salvo cancelación al menos 24 horas antes del vencimiento.</li>
+            <li>Puedes gestionar o cancelar tu suscripción en cualquier momento desde Google Play Store en "Pagos y suscripciones".</li>
+            <li>Los reembolsos se rigen por las políticas vigentes de Google Play.</li>
+        </ul>
+
+        <h2>4. Publicidad</h2>
+        <p>La versión gratuita puede mostrar anuncios de Google AdMob (anuncios bonificados, etc.) cumpliendo estrictamente con las políticas de Google Play.</p>
+
+        <h2>5. Limitación de Responsabilidad</h2>
+        <p>La aplicación se proporciona "tal cual" (as is). El usuario es el único responsable de validar medidas y tolerancias técnicas antes de iniciar procesos de mecanizado, fabricación o construcción.</p>
+
+        <h2>6. Contacto</h2>
+        <p>Para consultas o soporte sobre estas condiciones:</p>
+        <p><strong>Correo electrónico:</strong> <a href="mailto:ramordhelp@gmail.com">ramordhelp@gmail.com</a><br>
+        <strong>Sitio web:</strong> <a href="https://ramordcommunity.github.io" target="_blank">https://ramordcommunity.github.io</a></p>
+
+        <div class="footer-note">© 2026 Ramord Community. Todos los derechos reservados.</div>
+    </div>
+
+    <!-- ════════════════════ FRANÇAIS ════════════════════ -->
+    <div id="content-fr" class="lang-content">
+        <h1>Conditions d'Utilisation</h1>
+        <div class="date">Dernière mise à jour : Novembre 2026</div>
+
+        <p>En téléchargeant, installant ou utilisant les applications mobiles fournies par Ramord Community (telles que RamordCAD), vous acceptez d'être lié par les présentes Conditions d'Utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos applications.</p>
+
+        <h2>1. Description du Service</h2>
+        <p>Les applications de Ramord Community permettent la visualisation, l'inspection, la prise de mesures et la conversion de modèles CAO 2D et 3D sur appareils mobiles. Tout le traitement est effectué localement et hors ligne.</p>
+
+        <h2>2. Fichiers de l'Utilisateur et Propriété Intellectuelle</h2>
+        <p>Tous les modèles CAO, plans et fichiers ouverts dans l'application restent <strong>votre propriété exclusive</strong>. Ramord Community :</p>
+        <ul>
+            <li>Ne télécharge, ne copie et ne conserve aucun de vos fichiers de conception sur des serveurs distants.</li>
+            <li>Effectue l'ensemble des calculs géométriques et du rendu 3D directement sur votre appareil.</li>
+            <li>Ne revendique aucun droit de propriété intellectuelle sur vos créations.</li>
+        </ul>
+
+        <h2>3. Achats Intégrés et Abonnements</h2>
+        <p>L'application propose des fonctionnalités gratuites ainsi que des formules Pro optionnelles (formats supplémentaires, suppression des publicités) :</p>
+        <ul>
+            <li>Toutes les transactions sont traitées via le système officiel <strong>Google Play In-App Billing</strong>.</li>
+            <li>Les abonnements se renouvellent automatiquement sauf résiliation au moins 24 heures avant la fin de la période en cours.</li>
+            <li>La gestion et la résiliation s'effectuent directement depuis Google Play dans « Paiements et abonnements ».</li>
+        </ul>
+
+        <h2>4. Publicité</h2>
+        <p>La version gratuite peut afficher des publicités via Google AdMob dans le respect rigoureux des règles de Google Play.</p>
+
+        <h2>5. Limitation de Responsabilité</h2>
+        <p>L'application est fournie « en l'état » (as is). Il incombe à l'utilisateur de vérifier les cotes et données critiques avant toute fabrication ou production industrielle.</p>
+
+        <h2>6. Contact</h2>
+        <p>Pour toute question relative à ces conditions :</p>
+        <p><strong>Email :</strong> <a href="mailto:ramordhelp@gmail.com">ramordhelp@gmail.com</a><br>
+        <strong>Site Web :</strong> <a href="https://ramordcommunity.github.io" target="_blank">https://ramordcommunity.github.io</a></p>
+
+        <div class="footer-note">© 2026 Ramord Community. Tous droits réservés.</div>
+    </div>
+
+    <!-- ════════════════════ ITALIANO ════════════════════ -->
+    <div id="content-it" class="lang-content">
+        <h1>Termini di Servizio</h1>
+        <div class="date">Ultimo aggiornamento: Novembre 2026</div>
+
+        <p>Scaricando, installando o utilizzando le applicazioni mobili fornite da Ramord Community (come RamordCAD), accetti di essere vincolato dai presenti Termini di Servizio. Se non accetti questi termini, ti invitiamo a non utilizzare le nostre applicazioni.</p>
+
+        <h2>1. Descrizione del Servizio</h2>
+        <p>Le applicazioni di Ramord Community offrono strumenti mobili per visualizzare, ispezionare, misurare e convertire file CAD 2D e 3D. L'elaborazione avviene localmente e offline sul tuo dispositivo mobile.</p>
+
+        <h2>2. File dell'Utente e Proprietà Intellettuale</h2>
+        <p>Tutti i modelli CAD, disegni e progetti aperti nell'applicazione rimangono <strong>di tua esclusiva proprietà</strong>. Ramord Community:</p>
+        <ul>
+            <li>Non carica, copia né archivia i tuoi file di progettazione su server esterni.</li>
+            <li>Elabora tutta la geometria e il rendering 3D direttamente sull'hardware del tuo dispositivo.</li>
+            <li>Non rivendica alcun diritto di proprietà intellettuale sui tuoi progetti.</li>
+        </ul>
+
+        <h2>3. Acquisti In-App e Abbonamenti</h2>
+        <p>Oltre alle funzionalità gratuite di base, l'applicazione può offrire abbonamenti Pro facoltativi o licenze a vita per sbloccare formati avanzati ed eliminare la pubblicità:</p>
+        <ul>
+            <li>Tutte le transazioni avvengono in modo sicuro tramite <strong>Google Play In-App Billing</strong>.</li>
+            <li>Gli abbonamenti si rinnovano automaticamente a meno che non vengano annullati almeno 24 ore prima della scadenza.</li>
+            <li>Puoi gestire o annullare l'abbonamento in qualsiasi momento dal tuo account Google Play in "Pagamenti e abbonamenti".</li>
+        </ul>
+
+        <h2>4. Pubblicità</h2>
+        <p>La versione gratuita può mostrare annunci pubblicitari tramite Google AdMob conformemente alle norme di Google Play.</p>
+
+        <h2>5. Limitazione di Responsabilità</h2>
+        <p>L'applicazione è fornita "così com'è" (as is). È responsabilità dell'utente verificare le misure critiche prima della produzione o lavorazione industriale.</p>
+
+        <h2>6. Contatti</h2>
+        <p>Per domande o richieste relative ai presenti Termini:</p>
+        <p><strong>Email:</strong> <a href="mailto:ramordhelp@gmail.com">ramordhelp@gmail.com</a><br>
+        <strong>Sito web:</strong> <a href="https://ramordcommunity.github.io" target="_blank">https://ramordcommunity.github.io</a></p>
+
+        <div class="footer-note">© 2026 Ramord Community. Tutti i diritti riservati.</div>
+    </div>
+
+    <!-- ════════════════════ SCRIPT ════════════════════ -->
+    <script>
+        const supportedLangs = ['tr', 'en', 'de', 'es', 'fr', 'it'];
+
+        function setLanguage(lang) {
+            const targetLang = supportedLangs.includes(lang) ? lang : 'en';
+
+            document.querySelectorAll('.lang-content').forEach(el => {
+                el.classList.remove('active');
+            });
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            const targetContent = document.getElementById(`content-${targetLang}`);
+            if (targetContent) {
+                targetContent.classList.add('active');
+            }
+
+            const activeBtn = Array.from(document.querySelectorAll('.lang-btn')).find(b => 
+                b.getAttribute('onclick').includes(`'${targetLang}'`)
+            );
+            if (activeBtn) {
+                activeBtn.classList.add('active');
+            }
+
+            document.documentElement.lang = targetLang;
+        }
+
+        (function initLang() {
+            const browserLang = (navigator.language || navigator.userLanguage || 'en').slice(0, 2).toLowerCase();
+            if (supportedLangs.includes(browserLang)) {
+                setLanguage(browserLang);
+            } else {
+                setLanguage('en');
+            }
+        })();
+    </script>
+</body>
+</html>
